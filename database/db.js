@@ -25,5 +25,5 @@ db.connect((err) => {
         return
     }
 
-    console.log("Conecxão ao banco de dados MySql realizada com sucesso.")
+    console.log(`Conecxão ao banco de dados MySql realizada com sucesso ao bd ${process.env.MYSQLDATABASE}.`)
 })
